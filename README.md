@@ -1,7 +1,6 @@
 # BMI Calculator
 
-App built while completing 'Flutter Development Bootcamp with Dart' course available on HiDevs. <br/>
-https://hidevs.net/course/the-complete-flutter-development-bootcamp-with-dart
+</br>
 
 This app calculates the body mass index of a person.
 
