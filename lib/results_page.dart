@@ -14,7 +14,7 @@ class ResultsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI CALCULATOR'),
+        backgroundColor: kInactiveCardColor,
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

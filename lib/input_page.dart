@@ -16,7 +16,7 @@ class InputPage extends StatefulWidget {
 }
 
 class _InputPageState extends State<InputPage> {
-  Gender selectedGender;
+  Gender? selectedGender;
   int height = 180;
   int weight = 60;
   int age = 19;
@@ -26,6 +26,7 @@ class _InputPageState extends State<InputPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('BMI CALCULATOR'),
+        backgroundColor: kInactiveCardColor,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -238,7 +239,7 @@ class RoundIconButton extends StatelessWidget {
   RoundIconButton(this.icon, this.onPressed);
 
   final IconData icon;
-  final Function onPressed;
+  final Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {

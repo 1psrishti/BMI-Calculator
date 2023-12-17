@@ -7,7 +7,7 @@ class CalculatorBrain {
   final int weight;
   final int height;
 
-  double _bmi;  //private variable hence _
+  late double _bmi;  //private variable hence _
 
   String calculateBMI(){
     _bmi = weight/pow(height/100,2);
